@@ -24,6 +24,7 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
     //compile 'com.google.firebase:firebase-core:12.0.1'
     //compile 'com.google.firebase:firebase-auth:15.1.0'
     //firebase libraries below 12
@@ -41,3 +42,4 @@ dependencies {
 }
 //implementation 'com.google.android.gms:play-services-location:12.0.1'
 //apply plugin: 'com.google.gms.google-services'
+
