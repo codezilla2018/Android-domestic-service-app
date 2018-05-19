@@ -1,5 +1,6 @@
 package com.example.randikawann.findhelper;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         etemail = (EditText) findViewById(R.id.etpassword);
         etpassword = (EditText) findViewById(R.id.etpassword);
-        auth = FirebaseAuth.getInstance();
+//        auth = FirebaseAuth.getInstance();
 
     }
 
@@ -34,6 +35,8 @@ public class LoginActivity extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(getApplicationContext(),"User log in successfully",Toast.LENGTH_LONG).show();
+                        //my
+
                     }else{
                         Toast.makeText(getApplicationContext(),"wrong password or email",Toast.LENGTH_LONG).show();
                     }

@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "356682773462",
-    "firebase_url": "https://findhelper2-8dc5f.firebaseio.com",
-    "project_id": "findhelper2-8dc5f",
-    "storage_bucket": "findhelper2-8dc5f.appspot.com"
+    "project_number": "26514757804",
+    "firebase_url": "https://findhelper3.firebaseio.com",
+    "project_id": "findhelper3",
+    "storage_bucket": "findhelper3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:356682773462:android:a26efe14245e7efd",
+        "mobilesdk_app_id": "1:26514757804:android:a26efe14245e7efd",
         "android_client_info": {
           "package_name": "com.example.randikawann.findhelper"
         }
       },
       "oauth_client": [
         {
-          "client_id": "356682773462-oc3hlfa18l8p1f02nrkt4ppl2obf0dhr.apps.googleusercontent.com",
+          "client_id": "26514757804-d219pe7egbjg39259m2v6dbejh47b32c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyALypLhXHKS6hyPsdv6ul07aVpyCg1rYQk"
+          "current_key": "AIzaSyCk43b4zRGuKn9CFepwnU3QDca8ONmVJN8"
         }
       ],
       "services": {
